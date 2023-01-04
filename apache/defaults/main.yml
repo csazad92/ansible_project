@@ -1,0 +1,8 @@
+---
+# defaults file for apache
+  vars:
+    ansistrano_deploy_from: "/home/chandrashekhar/.ansible/roles/apache"
+    ansistrano_deploy_to: "/var/www/ansistrano-demo"
+    ansistrano_keep_releases: 5
+    ansistrano_deploy_via: copy
+
